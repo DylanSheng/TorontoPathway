@@ -14,6 +14,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -23,7 +24,7 @@ import com.google.android.gms.tasks.Task;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
     //private static final String TAG = MapsActivityCurrentPlace.class.getSimpleName();
     private GoogleMap mMap;
-    private CameraPosition mCameraPosition;
+    //private CameraPosition mCameraPosition;
 
     // The entry points to the Places API.
     //private GeoDataClient mGeoDataClient;
@@ -34,25 +35,25 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     // A default location (Sydney, Australia) and default zoom to use when location permission is
     // not granted.
-    private final LatLng mDefaultLocation = new LatLng(-33.8523341, 151.2106085);
-    private static final int DEFAULT_ZOOM = 15;
+    //private final LatLng mDefaultLocation = new LatLng(-33.8523341, 151.2106085);
+    //private static final int DEFAULT_ZOOM = 15;
     private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     private boolean mLocationPermissionGranted;
 
     // The geographical location where the device is currently located. That is, the last-known
     // location retrieved by the Fused Location Provider.
-    private Location mLastKnownLocation;
+    //private Location mLastKnownLocation;
 
     // Keys for storing activity state.
-    private static final String KEY_CAMERA_POSITION = "camera_position";
-    private static final String KEY_LOCATION = "location";
+    //private static final String KEY_CAMERA_POSITION = "camera_position";
+    //private static final String KEY_LOCATION = "location";
 
     // Used for selecting the current place.
-    private static final int M_MAX_ENTRIES = 5;
-    private String[] mLikelyPlaceNames;
-    private String[] mLikelyPlaceAddresses;
-    private String[] mLikelyPlaceAttributions;
-    private LatLng[] mLikelyPlaceLatLngs;
+    //private static final int M_MAX_ENTRIES = 5;
+    //private String[] mLikelyPlaceNames;
+    //private String[] mLikelyPlaceAddresses;
+    //private String[] mLikelyPlaceAttributions;
+    //private LatLng[] mLikelyPlaceLatLngs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,9 +81,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng unionStation = new LatLng(43.6452338,-79.3827987);
+        mMap.addMarker(new MarkerOptions().position(unionStation).title("Marker in Union Station"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(unionStation));
+        mMap.moveCamera(CameraUpdateFactory.zoomIn());
+        UiSettings uiSettings = mMap.getUiSettings();
+        uiSettings.setZoomControlsEnabled(true);
+
         getLocationPermission();
         setUpMapIfNeeded();
     }
