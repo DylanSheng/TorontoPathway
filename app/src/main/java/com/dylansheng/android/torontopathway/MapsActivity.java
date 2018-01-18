@@ -91,8 +91,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Add a marker in Sydney and move the camera
         LatLng unionStation = new LatLng(43.6452338,-79.3827987);
         mMap.addMarker(new MarkerOptions().position(unionStation).title("Marker in Union Station"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(unionStation));
         mMap.moveCamera(CameraUpdateFactory.zoomIn());
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(unionStation));
         UiSettings uiSettings = mMap.getUiSettings();
         uiSettings.setZoomControlsEnabled(true);
 
@@ -147,9 +147,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                     @Override
                     public void onMyLocationChange(Location arg0) {
-                        // TODO Auto-generated method stub
+                        mMap.moveCamera(CameraUpdateFactory.zoomTo(18.0f));
+                        mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(arg0.getLatitude(), arg0.getLongitude())));
 
-                        mMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
+                        //mMap.addMarker(new MarkerOptions().position(new LatLng(arg0.getLatitude(), arg0.getLongitude())).title("It's Me!"));
                     }
                 });
 
