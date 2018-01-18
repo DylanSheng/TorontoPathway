@@ -2,9 +2,9 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Location</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-9C27B0-nodesc-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ffb0279c</color>
         <scale>1</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -18,9 +18,9 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ffb0279c</color>
         <scale>1</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -34,149 +34,47 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-9C27B0-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-000000-1200-nodesc-normal">
+    <Style id="line-9C27B0-2550-nodesc-normal">
       <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
+        <color>ffb0279c</color>
+        <width>2.55</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-000000-1200-nodesc-highlight">
+    <Style id="line-9C27B0-2550-nodesc-highlight">
       <LineStyle>
-        <color>ff000000</color>
-        <width>1.8</width>
+        <color>ffb0279c</color>
+        <width>3.825</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-000000-1200-nodesc">
+    <StyleMap id="line-9C27B0-2550-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+        <styleUrl>#line-9C27B0-2550-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+        <styleUrl>#line-9C27B0-2550-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-11269-nodesc-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>11.269</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-0288D1-11269-nodesc-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>16.9035</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-0288D1-11269-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-11269-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-11269-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-11656-nodesc-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>11.656</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-0288D1-11656-nodesc-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>17.484</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-0288D1-11656-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-11656-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-11656-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-12044-nodesc-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>12.044</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-0288D1-12044-nodesc-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>18.066</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-0288D1-12044-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-12044-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-12044-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Placemark>
-      <name>Union Station</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -79.3806077,43.6452006,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Royal Bank Plaza</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -79.3798169,43.6464188,0
-        </coordinates>
-      </Point>
-    </Placemark>
     <Placemark>
       <name>Line 3</name>
-      <styleUrl>#line-0288D1-11269-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -186,17 +84,8 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>TD Canada Trust</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -79.3785029,43.6464809,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <name>Line 4</name>
-      <styleUrl>#line-0288D1-12044-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -207,7 +96,7 @@
     </Placemark>
     <Placemark>
       <name>Line 5</name>
-      <styleUrl>#line-0288D1-11656-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -220,7 +109,7 @@
     </Placemark>
     <Placemark>
       <name>Line 7</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -233,7 +122,7 @@
     </Placemark>
     <Placemark>
       <name>Line 8</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -248,7 +137,7 @@
     </Placemark>
     <Placemark>
       <name>Line 9</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -262,17 +151,722 @@
     </Placemark>
     <Placemark>
       <name>Line 10</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -79.3805873,43.6453612,0
-          -79.3812633,43.6459901,0
+          -79.3801099,43.6438783,0
+          -79.3810165,43.6460599,0
           -79.3798169,43.6464188,0
           -79.3800455,43.6468596,0
           -79.3799222,43.6470148,0
         </coordinates>
       </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 11</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3784308,43.6494215,0
+          -79.3802172,43.6490217,0
+          -79.3807912,43.6491925,0
+          -79.3834466,43.6486141,0
+          -79.3835646,43.6489557,0
+          -79.3834627,43.6490527,0
+          -79.382835,43.6491847,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 12</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3834144,43.6510517,0
+          -79.3816441,43.6514321,0
+          -79.3811667,43.6514088,0
+          -79.3792784,43.6518202,0
+          -79.3810862,43.6553367,0
+          -79.3808609,43.6555152,0
+          -79.3811291,43.6560392,0
+          -79.3810862,43.6563147,0
+          -79.3806142,43.6564351,0
+          -79.380582,43.6566252,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 13</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3806142,43.6564428,0
+          -79.3804961,43.6562643,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 14</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3811131,43.6563244,0
+          -79.3811613,43.6563089,0
+          -79.3812793,43.656567,0
+          -79.3838811,43.6560178,0
+          -79.3842539,43.6561246,0
+          -79.3845972,43.6560605,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 15</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3828243,43.6553949,0
+          -79.380995,43.6557791,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 16</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3810862,43.6553367,0
+          -79.3817461,43.6549175,0
+          -79.3826741,43.6547351,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 17</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3820733,43.6533767,0
+          -79.3819124,43.6536406,0
+          -79.3822449,43.6537493,0
+          -79.3824434,43.6534698,0
+          -79.3820733,43.6533767,0
+          -79.381333,43.6535668,0
+          -79.3807429,43.6533068,0
+          -79.3801099,43.653431,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 18</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.380185,43.6535668,0
+          -79.3798417,43.6536057,0
+          -79.379214,43.6533611,0
+          -79.3788439,43.6524878,0
+          -79.3783021,43.6521734,0
+          -79.3781197,43.6516611,0
+          -79.377889,43.6517154,0
+          -79.3778408,43.6515679,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 19</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3795735,43.6524102,0
+          -79.379214,43.6524762,0
+          -79.3788439,43.6524878,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 20</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3785489,43.6523015,0
+          -79.3811989,43.6517038,0
+          -79.3810487,43.6514088,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 21</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3818185,43.6513913,0
+          -79.3817917,43.6513448,0
+          -79.3826553,43.6511352,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 22</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.383688,43.6535901,0
+          -79.3834198,43.6526198,0
+          -79.3837953,43.6525422,0
+          -79.3835485,43.6520065,0
+          -79.3838274,43.6519755,0
+          -79.3833768,43.6509197,0
+          -79.3834305,43.650322,0
+          -79.382776,43.6487694,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 23</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3834305,43.650322,0
+          -79.3837255,43.6503841,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 24</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3826526,43.6500872,0
+          -79.3841171,43.6497844,0
+          -79.3841654,43.6497126,0
+          -79.384262,43.6497495,0
+          -79.3853268,43.6494991,0
+          -79.3855065,43.6499416,0
+          -79.3856487,43.6499726,0
+          -79.3859357,43.6506733,0
+          -79.3844309,43.6509566,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 25</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3859357,43.6506733,0
+          -79.3863219,43.6506015,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 26</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3821967,43.6488858,0
+          -79.3820733,43.6486102,0
+          -79.3812257,43.6488159,0
+          -79.3813759,43.6490682,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 27</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3821162,43.6487383,0
+          -79.3856943,43.6479387,0
+          -79.3857425,43.6480474,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 28</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3826312,43.6487888,0
+          -79.3825614,43.6486257,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 29</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3834466,43.6486141,0
+          -79.3833715,43.648455,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 30</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3795145,43.6481988,0
+          -79.3823951,43.6476243,0
+          -79.3821752,43.6471585,0
+          -79.3827224,43.647077,0
+          -79.3823844,43.6463433,0
+          -79.3821591,43.6463899,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 31</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.381789,43.6486646,0
+          -79.3810862,43.6469527,0
+          -79.3800455,43.6468596,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 32</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3810111,43.6469489,0
+          -79.3809414,43.6467431,0
+          -79.3813008,43.6466888,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 33</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3808717,43.6479465,0
+          -79.3807054,43.6475389,0
+          -79.3812954,43.647438,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 34</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3815476,43.6480435,0
+          -79.3827599,43.6477912,0
+          -79.3830228,43.6478882,0
+          -79.3833071,43.648486,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 35</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3830228,43.6478882,0
+          -79.383173,43.6476903,0
+          -79.3838328,43.647535,0
+          -79.3838865,43.6473875,0
+          -79.384262,43.6472827,0
+          -79.3840367,43.6467276,0
+          -79.3838114,43.6467625,0
+          -79.3837738,43.6466888,0
+          -79.3832052,43.6467897,0
+          -79.3829799,43.646681,0
+          -79.3822986,43.6453224,0
+          -79.3818694,43.6450934,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 36</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3838328,43.647535,0
+          -79.3841064,43.6476282,0
+          -79.3843693,43.6475311,0
+          -79.3845838,43.6475971,0
+          -79.3848681,43.6481367,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 37</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.384262,43.6472827,0
+          -79.3843693,43.6475311,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 38</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3810165,43.6460599,0
+          -79.3820465,43.6458736,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 39</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3818855,43.6479775,0
+          -79.3817461,43.6477291,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 40</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3831193,43.6613134,0
+          -79.3834841,43.6608011,0
+          -79.3849862,43.660479,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 41</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3834841,43.6608011,0
+          -79.3827868,43.6591324,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 42</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3898624,43.6596679,0
+          -79.3907744,43.6595127,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 43</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3877542,43.6551756,0
+          -79.3889719,43.6549874,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 44</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.388634,43.6544654,0
+          -79.3883483,43.6545207,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 45</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.384954,43.6478688,0
+          -79.3860376,43.6476126,0
+          -79.3864024,43.647108,0
+          -79.3862092,43.6466655,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 46</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3864024,43.647108,0
+          -79.3875074,43.6468829,0
+          -79.3878239,43.6465141,0
+          -79.3884355,43.6463821,0
+          -79.3881404,43.6456679,0
+          -79.3873626,43.6458581,0
+          -79.3866009,43.6458464,0
+          -79.3862736,43.645008,0
+          -79.3856835,43.6451244,0
+          -79.3855333,43.6447945,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 47</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3865794,43.6456989,0
+          -79.3871266,43.6455669,0
+          -79.3868423,43.6447362,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 48</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3862736,43.645008,0
+          -79.3868423,43.6447362,0
+          -79.3878132,43.6447362,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 49</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3878937,43.6464947,0
+          -79.3876952,43.6459512,0
+          -79.3874162,43.6458387,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 50</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3883389,43.6461415,0
+          -79.3887037,43.6460793,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 51</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3855333,43.6447945,0
+          -79.3848038,43.6449653,0
+          -79.3846858,43.6446159,0
+          -79.3845034,43.6445538,0
+          -79.3843317,43.644119,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 52</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3843693,43.6442044,0
+          -79.3851364,43.6440491,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 53</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3844819,43.6441695,0
+          -79.3842244,43.6436454,0
+          -79.3846697,43.643296,0
+          -79.3861395,43.6429738,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 54</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3846697,43.643296,0
+          -79.3844336,43.6431369,0
+          -79.3837041,43.6432572,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 55</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3837041,43.6432572,0
+          -79.3836182,43.6432145,0
+          -79.3829423,43.6433465,0
+          -79.3828189,43.643296,0
+          -79.3785328,43.6442122,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 56</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3843693,43.6442044,0
+          -79.3825239,43.6446159,0
+          -79.3819231,43.6431563,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 57</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3825239,43.6446159,0
+          -79.3819124,43.6447595,0
+          -79.3814349,43.6435639,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 58</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3819124,43.6447595,0
+          -79.3819875,43.6449653,0
+          -79.3796861,43.6454311,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 59</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3797398,43.6454,0
+          -79.3791282,43.6440647,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 60</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3800563,43.6439094,0
+          -79.3785542,43.6413589,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 61</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3783128,43.6414366,0
+          -79.3788117,43.6412696,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 62</name>
+      <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3795091,43.6429583,0
+          -79.3834841,43.6411997,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Toronto City Hall</name>
+      <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3840901,43.6534399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CF Toronto Eaton Centre</name>
+      <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3806994,43.6544382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Union Station</name>
+      <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.38061,43.6452299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Air Canada Centre</name>
+      <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3790989,43.6434661,0
+        </coordinates>
+      </Point>
     </Placemark>
   </Document>
 </kml>
