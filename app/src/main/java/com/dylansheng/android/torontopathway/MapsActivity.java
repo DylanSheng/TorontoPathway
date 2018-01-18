@@ -20,6 +20,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.GroundOverlay;
 import com.google.android.gms.maps.model.GroundOverlayOptions;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -87,15 +88,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
-        // Add a marker in Sydney and move the camera
-        LatLng unionStation = new LatLng(43.6452338,-79.3827987);
-        mMap.addMarker(new MarkerOptions().position(unionStation).title("Marker in Union Station"));
-        mMap.moveCamera(CameraUpdateFactory.zoomIn());
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(unionStation));
         UiSettings uiSettings = mMap.getUiSettings();
         uiSettings.setZoomControlsEnabled(true);
 
+        // Add a marker in Sydney and move the camera
+        LatLng unionStation = new LatLng(43.6452338,-79.3827987);
+
+        mMap.addMarker(new MarkerOptions().position(unionStation).title("Marker in Union Station"));
+        mMap.moveCamera(CameraUpdateFactory.zoomTo(15.0f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(unionStation));
+        LatLngBounds TorontoBounds = new LatLngBounds(
+                new LatLng(43.638147, -79.392152), new LatLng(43.663749, -79.374316));
+        mMap.setLatLngBoundsForCameraTarget(TorontoBounds);
         /*
         LatLng NEWARK = new LatLng(43.6452338,-79.3827987);
 
