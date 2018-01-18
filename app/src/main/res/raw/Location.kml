@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Location</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-11269-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>11.269</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-11269-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>16.9035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-11269-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-11269-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-11269-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-11656-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>11.656</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-11656-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>17.484</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-11656-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-11656-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-11656-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-12044-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>12.044</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-12044-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>18.066</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-12044-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-12044-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-12044-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Union Station</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3806077,43.6452006,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Royal Bank Plaza</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3798169,43.6464188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Line 3</name>
+      <styleUrl>#line-0288D1-11269-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3806088,43.6452292,0
+          -79.3798175,43.6464578,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>TD Canada Trust</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -79.3785029,43.6464809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Line 4</name>
+      <styleUrl>#line-0288D1-12044-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3785029,43.6464809,0
+          -79.3797666,43.6454505,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 5</name>
+      <styleUrl>#line-0288D1-11656-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3784845,43.6465529,0
+          -79.3787366,43.6470381,0
+          -79.3774706,43.6473409,0
+          -79.377771,43.6481172,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 7</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.377771,43.6481172,0
+          -79.3792301,43.6484938,0
+          -79.3791014,43.6486335,0
+          -79.3781304,43.6488276,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 8</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3792301,43.6484938,0
+          -79.3795145,43.6481988,0
+          -79.3792677,43.6476126,0
+          -79.377771,43.6481172,0
+          -79.3776959,43.648354,0
+          -79.3770576,43.6488121,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 9</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.377771,43.6481172,0
+          -79.3789351,43.6505238,0
+          -79.3794394,43.6514399,0
+          -79.3793857,43.6516068,0
+          -79.379493,43.6517931,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Line 10</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -79.3805873,43.6453612,0
+          -79.3812633,43.6459901,0
+          -79.3798169,43.6464188,0
+          -79.3800455,43.6468596,0
+          -79.3799222,43.6470148,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

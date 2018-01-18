@@ -23,6 +23,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.maps.android.kml.KmlLayer;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
     //private static final String TAG = MapsActivityCurrentPlace.class.getSimpleName();
@@ -91,14 +96,32 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         UiSettings uiSettings = mMap.getUiSettings();
         uiSettings.setZoomControlsEnabled(true);
 
+        /*
         LatLng NEWARK = new LatLng(43.6452338,-79.3827987);
 
         GroundOverlayOptions newarkMap = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.common_full_open_on_phone))
                 .position(NEWARK, 8600f, 6500f);
 
-// Add an overlay to the map, retaining a handle to the GroundOverlay object.
+        // Add an overlay to the map, retaining a handle to the GroundOverlay object.
         GroundOverlay imageOverlay = mMap.addGroundOverlay(newarkMap);
+        */
+        KmlLayer layer = null;
+        try {
+            layer = new KmlLayer(mMap, R.raw.location, getApplicationContext());
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            layer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
 
         getLocationPermission();
         setUpMapIfNeeded();
